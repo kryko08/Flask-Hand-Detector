@@ -1,3 +1,5 @@
 {% extends 'base.html' %}
 {% block title %}Show hands!{% endblock %}
-{% block content %}{{lipsum(1)}}{% endblock  %}
+{% block content %}
+<img src="{{ url_for('video_feed') }}" class="rounded mx-auto d-block my-auto">
+{% endblock  %}

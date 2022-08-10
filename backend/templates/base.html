@@ -6,12 +6,9 @@
 </head>
 <body>
 <section>
-    <div class="bg-img d-flex justify-content-center align-items-center" style="background-image: url({{url_for('static', filename='bg_image.jpg')}}); height: 100vh;">
-            <div class="w-50 h-50">
+    <div class="bg-img" style="background-image: url({{url_for('static', filename='bg_image.jpg')}}); height: 100vh;">
             {% block content%}
             {% endblock content%}
-            </div>
-        </div>    
     </div>
 </section>
 
