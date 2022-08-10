@@ -1,0 +1,4 @@
+venv
+HGDetector.code-workspace
+.DS_Store
+backend/__pycache__
